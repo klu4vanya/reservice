@@ -16,7 +16,7 @@ export default function Header() {
         </LogoContainer>
         <ContactContainer>
           <PhoneContainer>
-            +7 962 210 76 77
+            +7 915 523 81 18
           </PhoneContainer>
           <TGicon to='' />
         </ContactContainer>

@@ -11,6 +11,7 @@ import image3 from '../../assets/image3.jpg'
 import Carousel from 'react-material-ui-carousel';
 import Background from '../../assets/background.jpg'
 import { url } from 'inspector'
+import Card from './Card'
 interface Image {
     src: string;
 }
@@ -26,7 +27,26 @@ const images: Image[] = [
     },
 
 ]
-
+const card = [
+    {
+        color: '#51b005',
+        subtitle: 'от 700 рублей за пластину',
+        title: 'Стоимость',
+        count: 1
+    },
+    {
+        color: '#c86017',
+        subtitle: 'от 30 до 60 дней',
+        title: 'Сроки выполнения',
+        count: 2
+    },
+    {
+        color: '#b50600',
+        subtitle: 'от 5 штук',
+        title: 'Минимальная партия',
+        count: 3
+    }
+]
 export default function AboutCompany() {
     return (
         <Container
@@ -105,6 +125,19 @@ export default function AboutCompany() {
                     </RepairPriveliges>
                 </RepairPriveligesContainer>
             </InfoContainer>
+            <Line />
+            {card.map((item, index) => (
+                <Card
+                    key={index}
+                    color={item.color}
+                    title={item.title}
+                    subtitle={item.subtitle}
+                    count={item.count}
+                />
+            ))}
+             <AboutContainer>
+                Довольные клиенты
+            </AboutContainer>
         </Container>
     )
 }
