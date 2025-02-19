@@ -15,12 +15,20 @@ export const HeaderWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 768px){
+        width: 90%;
+    }
+
 `
 export const LogoContainer = styled.div`
     width: 15%;
     height: 80px;
     display: flex;
     align-items: center;
+
+    @media (max-width: 768px){
+        width: 40%;
+    }
 `
 
 export const ContactContainer = styled.div`
@@ -29,6 +37,9 @@ export const ContactContainer = styled.div`
     align-items: center;
 
     width: 20%;
+    @media (max-width: 768px){
+        width: 50%;
+    }
 `
 export const PhoneContainer = styled.div`
     display: flex;
@@ -39,6 +50,10 @@ export const PhoneContainer = styled.div`
     font-size: 20px;
     color: #fff;
     text-align: center; 
+    @media (max-width: 768px){
+        font-size: 16px;
+        margin-right: 2%;
+    }
 `
 export const TGicon = styled(NavLink)`
     background-image: url(${tg_icon});

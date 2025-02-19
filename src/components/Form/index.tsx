@@ -9,7 +9,7 @@ import styled from 'styled-components'
 
 const StyledTGIconSVG = styled(TGIconSVG)`
   path {
-    fill: #1080b8 
+    fill: #E03C31 
   }
 `;
 
@@ -74,11 +74,11 @@ export default function FormFeedback() {
                             <iframe src="https://yandex.ru/map-widget/v1/?ll=37.539665%2C55.747063&mode=search&oid=1192932552&ol=biz&z=16.26" width="100%" height="400" frameBorder={1} allowFullScreen={true}
                                 style={{ position: 'relative' }}></iframe>
                         </div>
-                        <TelegramHrefContainer to=''>
-                           <NavLink style={{width: '50px'}} to=''>
+                        <TelegramHrefContainer to='https://t.me/S3_Stock_bot'>
+                           <a style={{width: '50px'}} href='https://t.me/S3_Stock_bot'>
                            <StyledTGIconSVG
                            />
-                           </NavLink>
+                           </a>
                             <TelegramTitle
                                 style={{
                                     textDecoration: 'none'

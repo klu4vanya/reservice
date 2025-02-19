@@ -11,6 +11,11 @@ export const AboutContainer = styled.div`
     line-height: 1.3em;
     font-weight: 600;
     text-align: center;
+    @media (max-width: 768px){
+        width: 90%;
+        font-size: 28px;
+        margin-bottom: 5%;
+    }
 `
 
 export const CursiveText = styled.div`
@@ -22,6 +27,10 @@ export const CursiveText = styled.div`
     font-size: 30px;
     line-height: 1.3em;
     font-style: italic;
+    @media (max-width: 768px){
+        width: 90%;
+        font-size: 25px;
+    }
 `
 export const Line = styled.div`
     width: 200px;
@@ -36,6 +45,9 @@ export const InfoContainer = styled.div`
     align-items: center;
     justify-content: space-around;
     padding-top: 5%;
+    @media (max-width: 768px){
+        width: 90%;
+    }
 `
 export const InfoWrapper = styled.div`
     width: 40%;
@@ -46,6 +58,10 @@ export const InfoWrapper = styled.div`
     text-align: center;
     background-color: #E03E31;
     color: #fff;
+    @media (max-width: 768px){
+        font-size: 18px;
+        height: 100px;
+    }
 `
 export const RepairText = styled.div`
     width: 100%;
@@ -57,6 +73,12 @@ export const RepairText = styled.div`
     text-align: center;
     color: #fff;
     padding: inherit;
+    @media (max-width: 768px){
+        font-size: 28px;
+        height: auto;
+        margin: 0 auto;
+        width: 90%;
+    }
 `
 
 export const RepairPriveligesContainer = styled.div`
@@ -67,6 +89,11 @@ export const RepairPriveligesContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 768px){
+        height: auto;
+        width: 90%;
+        margin: 0 auto 5% auto;
+    }
 `
 export const RepairPriveliges = styled.div`
     width: 80%;
@@ -79,5 +106,10 @@ export const RepairPriveliges = styled.div`
 
     &  span {
         font-weight: 600;
+    }
+    @media(max-width: 768px){
+        & p{
+            font-size: 20px;
+        }
     }
 `

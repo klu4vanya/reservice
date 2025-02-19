@@ -18,7 +18,7 @@ export default function Header() {
           <PhoneContainer>
             +7 915 523 81 18
           </PhoneContainer>
-          <TGicon to='' />
+          <TGicon to='https://t.me/S3_Stock_bot' />
         </ContactContainer>
       </HeaderWrapper>
     </HeaderContainer>
