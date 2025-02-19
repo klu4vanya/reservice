@@ -1,21 +1,28 @@
 {
   "files": {
     "main.css": "/reservice/static/css/main.d61b69f7.css",
-    "main.js": "/reservice/static/js/main.37d66b18.js",
+    "main.js": "/reservice/static/js/main.2012ad72.js",
     "static/js/453.1dd533fa.chunk.js": "/reservice/static/js/453.1dd533fa.chunk.js",
+    "static/media/image2.jpeg": "/reservice/static/media/image2.57f65e27e7bca06a4665.jpeg",
     "static/media/background.jpg": "/reservice/static/media/background.123740596bd0c4df7287.jpg",
+    "static/media/image1.jpeg": "/reservice/static/media/image1.33eaaa49da4a78af9e6f.jpeg",
+    "static/media/image7.jpeg": "/reservice/static/media/image7.fc6d1694000b48a96fcd.jpeg",
+    "static/media/image6.jpeg": "/reservice/static/media/image6.f5536566870a1dfd6587.jpeg",
+    "static/media/image8.jpeg": "/reservice/static/media/image8.826416386bdc11031e4c.jpeg",
+    "static/media/image4.jpeg": "/reservice/static/media/image4.e1b12f6381914aab4d54.jpeg",
+    "static/media/image5.jpeg": "/reservice/static/media/image5.975a73dffb16cd6ced9a.jpeg",
+    "static/media/image10.jpeg": "/reservice/static/media/image10.27357ab8b3632b37a9db.jpeg",
+    "static/media/image3.jpeg": "/reservice/static/media/image3.94127c891090837cecbc.jpeg",
     "static/media/logo.png": "/reservice/static/media/logo.7d6fb035414f93647bc0.png",
-    "static/media/image1.jpg": "/reservice/static/media/image1.3c898eeff0da273025a4.jpg",
-    "static/media/image3.jpg": "/reservice/static/media/image3.7ee312b90b52a26b6d6b.jpg",
-    "static/media/image2.jpg": "/reservice/static/media/image2.eacb609e314b9ad67c94.jpg",
+    "static/media/image9.jpeg": "/reservice/static/media/image9.a2d44a059010926210eb.jpeg",
     "index.html": "/reservice/index.html",
-    "static/media/tg-icon.svg": "/reservice/static/media/tg-icon.0f69a44233cc2606b7b7014ab6ae8b27.svg",
+    "static/media/tg-icon.svg": "/reservice/static/media/tg-icon.5d50bc16caf95b7a6dc8a8bde3734227.svg",
     "main.d61b69f7.css.map": "/reservice/static/css/main.d61b69f7.css.map",
-    "main.37d66b18.js.map": "/reservice/static/js/main.37d66b18.js.map",
+    "main.2012ad72.js.map": "/reservice/static/js/main.2012ad72.js.map",
     "453.1dd533fa.chunk.js.map": "/reservice/static/js/453.1dd533fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d61b69f7.css",
-    "static/js/main.37d66b18.js"
+    "static/js/main.2012ad72.js"
   ]
 }
